@@ -40,7 +40,7 @@
 Клонируйте репозиторий на свою машину:
 
 ```bash
-git clone https://github.com/yourusername/yndx_go_calc.git
+git clone https://github.com/luzhnov-aleksei/yndx_go_calc.git
 ```
 Перейдите в каталог проекта:
 
@@ -50,7 +50,7 @@ cd yndx_go_calc
 Для запуска сервиса используйте команду:
 
 ```bash
-go run ./cmd/calc_service/...
+go run main.go
 ```
 По умолчанию сервис будет запущен на порту 8080.
 
